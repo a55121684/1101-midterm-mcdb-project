@@ -3,6 +3,6 @@ var router = express.Router();
 const apiController = require('../controllers/apiController');
 
 /* GET home page. */
-router.get('/category_02',apiController.getCategories);
+router.get('/category',apiController.getCategories);
 
 module.exports = router;
