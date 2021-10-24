@@ -45,7 +45,7 @@ app.use(function(err, req, res, next) {
 
 app.use(
   cors({
-    origin: ['https://crown1101.herokuapp.com']
+    origin: ['https://midterm-dbapi-1101.herokuapp.com/']
   })
 );
 module.exports = app;
