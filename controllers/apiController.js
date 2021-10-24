@@ -1,4 +1,4 @@
-const serviceController = require('../serviceController');
+const serviceController = require('../services/serviceController');
 
 exports.getCategories = async (req, res) => {
   try {
