@@ -5,4 +5,6 @@ const apiController = require('../controllers/apiController');
 /* GET home page. */
 router.get('/category',apiController.getCategories);
 
+router.get('/category2',apiController.getCategories);
+
 module.exports = router;
