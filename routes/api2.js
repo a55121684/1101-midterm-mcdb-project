@@ -7,5 +7,4 @@ const apiController = require('../controllers/apiController');
 router.get('/category2',apiController.getCategories);
 
 
-
 module.exports = router;
