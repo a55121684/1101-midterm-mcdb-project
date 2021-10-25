@@ -19,4 +19,5 @@ const Category = class Category{
     }
 };
 
+
 module.exports = Category;

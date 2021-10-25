@@ -15,4 +15,5 @@ exports.getCategories = async (req, res) =>{
     }catch(err){
         console.log('getCategories',err);
     }
+
 }
